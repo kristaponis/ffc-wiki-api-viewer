@@ -1,0 +1,42 @@
+body {
+    background-color: #89c3d6;
+}
+  
+.wiki-img {
+    margin: 70px 0 30px 0;
+}
+  
+.search {
+    border: 1px #333333 solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #eeeeee;
+}
+  
+.btn {
+    border: 1px #333333 solid;
+    background-color: #89c3d6;
+}
+  
+.btn:hover {
+    background-color: #eeeeee;
+}
+  
+li {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #eeeeee;
+}
+  
+a,
+a:hover,
+a:active,
+a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+  
+.footer {
+    margin: 100px 0 30px 0;
+}

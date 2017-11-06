@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Wiki API</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="text-center wiki-img">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
+        </div>
+        <div class="search-box text-center">
+            <input id="search-box" class="search" type="search">
+            <button class="btn" id="buton">Search</button>
+            <button class="btn"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Wiki</a></button>
+        </div>
+        <div>
+            <h3 id="resultText"></h3>
+            <p id="resultatas"></p>
+            <ul id="resultsList"></ul>
+        </div>
+        <div class="footer text-center">
+            <p>&copy Artūras Krištaponis</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
